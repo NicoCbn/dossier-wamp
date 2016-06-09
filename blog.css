@@ -1,0 +1,342 @@
+﻿
+body{
+	background-image: url('http://localhost/img/hodor2.jpg');
+	background-size: 100vw 100vw;
+	background-repeat:repeat;
+	font-family: Cambria;
+}
+
+/* Mise en forme HEADER--------------------*/
+header{
+	position: fixed;
+	background-color: gray;
+	top: 0em;
+	width: 100%;
+	height: 10%;
+	
+}
+
+#logo{
+	float: left;
+	width : 10%;
+	height: 100%;
+}
+
+#titre{
+	font-size : 5vw;
+	text-align : center;
+	margin-top : 0;
+	margin-bottom : 0;
+	color : white;
+}
+
+#version{
+	font-size : 5em;
+	position:absolute;
+	font-size : 1.5vw;
+	top: 0;
+	right : 1em;
+	
+}
+#version:after{
+content: " ordinateur grande fenetre)";
+
+}
+
+/* Mise en forme NAVIGATEUR--------------------*/
+nav{
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top : 12%;
+	width: 15%;
+	height: 50%;
+	color : white;
+	font-size : 1vw;
+}
+li{
+	
+	margin-left: 0;
+	font-size : 1.25vw;
+}
+ul{
+	margin-left: 0;
+}
+/* Mise en forme PUB--------------------*/
+#pub{
+	position: fixed;
+	top : 12%;
+	right:0em;
+	width: 15%;
+	height: 80%;
+
+}
+#ikea{
+	width: 100%;
+	height: 80%;
+
+}
+/* Mise en forme Contenu--------------------*/
+#contenu{
+	margin-right :18%;
+	margin-top : 8vw;
+	margin-left : 18%;
+	
+}
+section{
+	background-color: rgba(50,50,0,0.9);
+	margin-top : 3%;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 2px 4px black;
+	border-width: 1% 1% 1% 1%;
+	border-color: black;
+	border-style: solid;
+	
+}
+section :hover{
+	cursor:  pointer;
+	background-color: rgba(50,50,0,1);
+
+	
+}
+section :active{
+	background-color: yellow;
+	
+}
+
+
+
+
+h2{
+	background-color: rgba(75,75,0,0.6);
+}
+.date{
+	font-size: small;
+	position: margin;
+	top:0;
+	right: 5%;
+	text-align : right;
+}
+
+
+@media all and (max-device-width: 480px)
+{
+body{
+	background-image: url('http://localhost/img/hodor2.jpg');
+	background-size: 100vw 100vw;
+	background-repeat:repeat;
+}
+
+/* Mise en forme HEADER--------------------*/
+header{
+	position: fixed;
+	background-color: gray;
+	top: 0em;
+	width: 100%;
+	height: 10%;
+	
+}
+
+#logo{
+	float: left;
+	width : 10%;
+	height: 100%;
+}
+
+#titre{
+	font-size : 5vw;
+	text-align : center;
+	margin-top : 0;
+	margin-bottom : 0;
+	color : white;
+}
+
+#version{
+	font-size : 5em;
+	position:absolute;
+	font-size : 1.5vw;
+	top: 0;
+	right : 1em;
+	
+}
+#version:after{
+content: " ordinateur petite fenetre)";
+
+}
+
+/* Mise en forme NAVIGATEUR--------------------*/
+nav{
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top : 12%;
+	width: 100%;
+	height: 10%;
+	color : white;
+	font-size : 1vw;
+}
+#titre_nav{
+	float: left;
+}
+
+li{
+	position: relative;
+	top:-15%;
+	float: left;
+	margin-right: 3%;
+	font-size : 2vw;
+}
+/* Mise en forme PUB--------------------*/
+#pub{
+	visibility: hidden;
+	position: fixed;
+	top : 12%;
+	right:0em;
+	width: 15%;
+	height: 80%;
+
+}
+#ikea{
+	width: 100%;
+	height: 80%;
+
+}
+/* Mise en forme Contenu--------------------*/
+#contenu{
+	margin-right :3%;
+	margin-top : 12vw;
+	margin-left : 3%;
+	
+}
+section{
+	background-color: rgba(50,50,0,0.9);
+	margin-top : 3%;
+	border-radius:  0% 5% 5% 5%;
+	box-shadow: 100% 100% gray;
+	
+}
+
+
+
+
+h2{
+	background-color: rgba(75,75,0,0.6);
+}
+.date{
+	font-size: small;
+	position: margin;
+	top:0;
+	right: 5%;
+	text-align : right;
+}
+}
+
+@media screen and (max-width: 480px)
+{
+body{
+	background-image: url('http://localhost/img/hodor2.jpg');
+	background-size: 100vw 100vw;
+	background-repeat:repeat;
+}
+
+/* Mise en forme HEADER--------------------*/
+header{
+	position: fixed;
+	background-color: gray;
+	top: 0em;
+	width: 100%;
+	height: 10%;
+	
+}
+
+#logo{
+	float: left;
+	width : 10%;
+	height: 100%;
+}
+
+#titre{
+	font-size : 5vw;
+	text-align : center;
+	margin-top : 0;
+	margin-bottom : 0;
+	color : white;
+}
+
+#version{
+	font-size : 5em;
+	position:absolute;
+	font-size : 1.5vw;
+	top: 0;
+	right : 1em;
+	
+}
+#version:after{
+content: " ordinateur petite fenetre)";
+
+}
+
+/* Mise en forme NAVIGATEUR--------------------*/
+nav{
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top : 12%;
+	width: 100%;
+	height: 10%;
+	color : white;
+	font-size : 1vw;
+}
+#titre_nav{
+	float: left;
+}
+
+li{
+	position: relative;
+	top:-15%;
+	float: left;
+	margin-right: 3%;
+	font-size : 2vw;
+}
+/* Mise en forme PUB--------------------*/
+#pub{
+	visibility: hidden;
+	position: fixed;
+	top : 12%;
+	right:0em;
+	width: 15%;
+	height: 80%;
+
+}
+#ikea{
+	width: 100%;
+	height: 80%;
+
+}
+/* Mise en forme Contenu--------------------*/
+#contenu{
+	margin-right :3%;
+	margin-top : 12vw;
+	margin-left : 3%;
+	
+}
+section{
+	background-color: rgba(50,50,0,0.9);
+	margin-top : 3%;
+	border-radius:  0% 5% 5% 5%;
+	box-shadow: 100% 100% gray;
+	
+}
+
+
+
+
+h2{
+	background-color: rgba(75,75,0,0.6);
+}
+.date{
+	font-size: small;
+	position: margin;
+	top:0;
+	right: 5%;
+	text-align : right;
+}
+
+}
